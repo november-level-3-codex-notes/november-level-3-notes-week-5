@@ -1,6 +1,6 @@
 # Notes for Week 5 - Day 1
 
-## Review of Props + State + Component Breakdown
+## Review of Props + State
 
 #### State
 - State is the data that changes in our application 
