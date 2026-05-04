@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f4f6f9;
+  color: #1a1a1a;
+}
+
+.header-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px 0;
+  background: linear-gradient(135deg, #e0f7f7, #c8eeff);
+  border-bottom: 1px solid #d0eaea;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.header-info h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  color: #111;
+}
+
+.header-info h2 {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #555;
+  margin-top: 6px;
+}
+
+.product-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 40px 16px;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  padding: 24px;
+  width: 420px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.1);
+}
+
+.product-card h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #111;
+}
+
+.product-card p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+button {
+  width: 100%;
+  margin-top: 8px;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  background-color: #111;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #2d2d2d;
+  transform: translateY(-2px);
+}
+
+button:active {
+  transform: translateY(0);
+  background-color: #444;
+}
+
+button:disabled {
+  background-color: #e2e8f0;
+  color: #999;
+  cursor: not-allowed;
+  transform: none;
+}
