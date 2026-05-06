@@ -29,3 +29,9 @@ input, button {
   border: 2px solid #ccc;
   border-radius: 5px;
 }
+
+p{
+  font-weight:600;
+  text-align: center;
+  color: green;
+}
